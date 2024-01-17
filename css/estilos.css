@@ -332,7 +332,11 @@ Index
     line-height: 1.4;
 }
 
-.index legend{
+.index fieldset{
+    border: none;
+}
+
+.index .form-label{
     margin-bottom: 5px;
 }
 
@@ -1100,6 +1104,10 @@ Videos
 
 .videos .videos-container{
     padding-bottom: 30px;
+}
+
+.videos iframe{
+    border: none;
 }
 
 @media (min-width: 576px) {
